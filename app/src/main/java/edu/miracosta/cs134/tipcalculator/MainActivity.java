@@ -12,6 +12,9 @@ import android.widget.TextView;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+/**
+ * Class handles the MainActivity for the Tip Calculator using MVC architecture.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.getDefault());
