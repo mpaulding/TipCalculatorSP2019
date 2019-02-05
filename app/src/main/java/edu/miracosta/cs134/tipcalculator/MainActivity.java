@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
     // Member variable to keep track of the Bill
     private Bill currentBill;
 
+    /**
+     * Initializes activity for the first time.  Activity is started and loaded,
+     * and a specific view is inflated.
+     * @param savedInstanceState A bundle comprising any saved state from a past launch of the activity.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
